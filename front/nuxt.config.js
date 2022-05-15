@@ -40,7 +40,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'ERC20 Token Faucet',
+    title: 'Candle (CNDL) Token Faucet',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -48,7 +48,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'An ERC20 token faucet on the Ethereum mainnet, and Ropsten, Kovan, Rinkeby and Görli testnets.'
+          'A Candle (CNDL) token faucet on the Candle Mainnet.'
       },
       {
         hid: 'og:title',
@@ -58,7 +58,7 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Get free ERC20 token on any Ethereum network'
+        content: 'Get free Candle token on Candle network'
       },
       {
         hid: 'og:url',
@@ -78,7 +78,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Get free ERC20 token on any Ethereum network'
+        content: 'Get free Candle token on Candle network'
       },
       {
         hid: 'keywords',

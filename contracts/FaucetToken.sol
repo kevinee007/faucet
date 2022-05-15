@@ -20,7 +20,7 @@ contract FaucetToken is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable {
     }
 
     function mint(address to, uint256 value) public returns (bool) {
-        require(value <= 10000000 ether, "dont be greedy");
+        require(value <= 10000000 ether, "don't be greedy");
         _mint(to, value);
         return true;
     }

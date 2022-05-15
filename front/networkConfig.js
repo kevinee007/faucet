@@ -167,16 +167,16 @@ const networkConfig = {
     smartContractPollTime: 15,
     isEIP1559Supported: false
   },
-  netId137: {
+  netId534: {
     verifyingContract: '0xb816d2Bd3FFEf8CA2E65E5F7E0695351b733C4f3',
     rpcCallRetryAttempt: 10,
-    currencyName: 'MATIC',
+    currencyName: 'CNDL',
     explorerUrl: {
-      tx: 'https://polygonscan.com/tx',
-      address: 'https://polygonscan.com/address'
+      tx: 'https://candleexplorer.com/tx',
+      address: 'https://candleexplorer.com/address'
     },
-    networkName: 'Polygon(Matic) Network',
-    rpcUrl: 'https://polygon-rpc.com/',
+    networkName: 'Candle (CNDL) Network',
+    rpcUrl: 'https://rpc.cndlchain.com/',
     gasPrice: { fast: 1, low: 1, standard: 1 },
     smartContractPollTime: 15,
     isEIP1559Supported: false
